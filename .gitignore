@@ -1,1 +1,72 @@
-/.vscode
+# Diretórios do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos e diretórios do IntelliJ IDEA
+.idea
+*.iml
+
+# Arquivos e diretórios do Eclipse
+.project
+.classpath
+.settings/
+
+# Arquivos do Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Arquivos do Gradle
+.gradle/
+build/
+
+# Arquivos de log
+*.log
+
+# Configurações do servidor
+.idea/
+*.ipr
+*.iws
+*.bak
+*.swp
+*.swo
+*.orig
+*.md
+
+# Arquivos gerados pelo compilador
+*.class
+
+# Arquivos de pacote
+*.jar
+*.war
+*.ear
+
+# Arquivos de debug
+*.log
+
+# Arquivos de configuração
+*.properties
+*.yml
+*.yaml
+*.xml
+*.json
+
+# Diretórios de dependências
+lib/
+
+# Arquivos de IDEs diversas
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Arquivos temporários
+tmp/
+temp/
+
+# Arquivos do sistema operacional
+*~
