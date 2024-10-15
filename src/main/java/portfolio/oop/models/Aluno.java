@@ -33,4 +33,10 @@ public class Aluno extends Pessoa {
     public void EditCurso(String matricula){
         this.SetCurso(curso);
     }
+
+    public void ImprimeAlunoInfo(Aluno aluno){
+        System.out.println(this.ImprimePessoaInfo(this) +
+                           "\nMatricula: " + this.GetMatricula() +
+                           "\nCurso: " + this.GetCurso());
+    }
 }
