@@ -32,4 +32,9 @@ public class Pessoa {
     public void EditIdade(int idade){
         this.SetIdade(idade);
     }
+
+    public void ImprimePessoaInfo(Pessoa pessoa){
+        System.out.println( "Nome: " + this.GetNome() +
+                            "\nIdade: " + this.GetIdade());
+    }
 }
