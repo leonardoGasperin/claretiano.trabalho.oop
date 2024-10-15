@@ -9,19 +9,19 @@ public class Pessoa {
         this.SetIdade(idade);
     }
 
-    public String GetName(String nome){
-        return this.nome;
-    }
-
-    public int GetIdade(int idade){
-        return this.idade;
-    }
-
     private void SetName(String nome){
         this.nome = nome;
     }
 
     private void SetIdade(int idade){
         this.idade = idade;
+    }
+
+    public String GetName(){
+        return this.nome;
+    }
+
+    public int GetIdade(){
+        return this.idade;
     }
 }

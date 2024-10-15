@@ -18,11 +18,11 @@ public class Aluno extends Pessoa {
         this.matricula = matricula;
     }
 
-    public String GetMatricula(String matricula){
+    public String GetMatricula(){
         return this.matricula;
     }
 
-    public String GetCurso(String matricula){
+    public String GetCurso(){
         return this.matricula;
     }
 }
