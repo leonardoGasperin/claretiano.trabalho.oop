@@ -6,8 +6,8 @@ public class Aluno extends Pessoa {
     
     public Aluno (String nome, int idade, String matricula, String curso){
         super(nome, idade);
-        SetMatricula(matricula);
-        SetCurso(curso);
+        this.SetMatricula(matricula);
+        this.SetCurso(curso);
     }
 
     private void SetMatricula(String matricula){
@@ -24,5 +24,13 @@ public class Aluno extends Pessoa {
 
     public String GetCurso(){
         return this.matricula;
+    }
+
+    public void EditMatricula(String matricula){
+        this.SetMatricula(matricula);
+    }
+
+    public void EditCurso(String matricula){
+        this.SetCurso(curso);
     }
 }

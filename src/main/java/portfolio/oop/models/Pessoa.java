@@ -5,11 +5,11 @@ public class Pessoa {
     private int idade;
     
     public Pessoa(String nome, int idade){
-        this.SetName(nome);
+        this.SetNome(nome);
         this.SetIdade(idade);
     }
 
-    private void SetName(String nome){
+    private void SetNome(String nome){
         this.nome = nome;
     }
 
@@ -17,11 +17,19 @@ public class Pessoa {
         this.idade = idade;
     }
 
-    public String GetName(){
+    public String GetNome(){
         return this.nome;
     }
 
     public int GetIdade(){
         return this.idade;
+    }
+
+    public void EditNome(String nome){
+        this.SetNome(nome);
+    }
+
+    public void EditIdade(int idade){
+        this.SetIdade(idade);
     }
 }
