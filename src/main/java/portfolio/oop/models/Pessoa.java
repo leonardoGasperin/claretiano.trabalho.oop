@@ -33,7 +33,7 @@ public class Pessoa {
         this.SetIdade(idade);
     }
 
-    public String ImprimePessoaInfo(Pessoa pessoa){
+    public String ImprimePessoaInfo(){
         return "Nome: " + this.GetNome() +
                "\nIdade: " + this.GetIdade();
     }

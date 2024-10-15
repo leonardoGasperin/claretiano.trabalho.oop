@@ -1,8 +1,8 @@
 package portfolio.oop.models;
 
 public class Aluno extends Pessoa {
-    public String matricula;
-    public String curso;
+    private String matricula;
+    private String curso;
     
     public Aluno (String nome, int idade, String matricula, String curso){
         super(nome, idade);
@@ -34,8 +34,8 @@ public class Aluno extends Pessoa {
         this.SetCurso(curso);
     }
 
-    public String ImprimeAlunoInfo(Aluno aluno){
-        return this.ImprimePessoaInfo(this) +
+    public String ImprimeAlunoInfo(){
+        return this.ImprimePessoaInfo() +
                "\nMatricula: " + this.GetMatricula() +
                "\nCurso: " + this.GetCurso();
     }
