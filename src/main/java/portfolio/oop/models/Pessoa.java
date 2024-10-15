@@ -14,7 +14,7 @@ public class Pessoa {
     }
 
     public int GetIdade(int idade){
-        return this,idade;
+        return this.idade;
     }
 
     private void SetName(String nome){
