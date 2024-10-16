@@ -14,8 +14,8 @@ public class Aluno extends Pessoa {
         this.matricula = matricula;
     }
 
-    private void SetCurso(String matricula){
-        this.matricula = matricula;
+    private void SetCurso(String curso){
+        this.curso = curso;
     }
 
     public String GetMatricula(){
@@ -23,7 +23,7 @@ public class Aluno extends Pessoa {
     }
 
     public String GetCurso(){
-        return this.matricula;
+        return this.curso;
     }
 
     public void EditMatricula(String matricula){
@@ -36,8 +36,8 @@ public class Aluno extends Pessoa {
 
     public String GetAlunoData(String tabelaNome){
         return this.GetPessoaData(tabelaNome) +
-               "\n|| Matricula:\t" + this.GetMatricula() +
+               "\n|| Matricula:\t\t" + this.GetMatricula() +
                "\n|| Curso:\t\t" + this.GetCurso() +
-               "\n==================================";
+               "\n======================================";
     }
 }
