@@ -23,9 +23,9 @@ public class App
         _alunoService.imprimeAlunoData(aluno, "Informações de aluno editado");
         _pessoaService.imprimePessoaData(pessoa, "Informações de pessoa após aluno ser editado");
         _pessoaService.imprimePessoaData(aluno, "Informações da pessoa de aluno após edição");
-        _pessoaService.EditPessoaData(pessoa, "José Pessoa", 45);
+        _pessoaService.EditPessoaData(pessoa, "José Galera", 45);
         _pessoaService.imprimePessoaData(pessoa, "Pessoa após edição");
-        _alunoService.imprimeAlunoData(aluno2, "Aluno após edição de pessoa");
+        _alunoService.imprimeAlunoData(aluno, "Aluno após edição de pessoa");
         _alunoService.imprimeAlunoData(aluno2, "Eu");
     }
 }
