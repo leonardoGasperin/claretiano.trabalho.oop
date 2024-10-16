@@ -35,9 +35,9 @@ public class Pessoa {
 
     public String GetPessoaData(String tabelaNome){
         return "\n"+ tabelaNome +
-               "\n==================================\n" + 
+               "\n======================================\n" + 
                "|| Nome:\t\t" + this.GetNome() +
                "\n|| Idade:\t\t" + this.GetIdade() +
-               "\n==================================";
+               "\n======================================";
     }
 }
