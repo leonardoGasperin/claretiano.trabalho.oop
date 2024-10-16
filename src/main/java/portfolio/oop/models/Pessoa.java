@@ -33,8 +33,11 @@ public class Pessoa {
         this.SetIdade(idade);
     }
 
-    public String ImprimePessoaInfo(){
-        return "Nome: " + this.GetNome() +
-               "\nIdade: " + this.GetIdade();
+    public String GetPessoaData(String tabelaNome){
+        return "\n"+ tabelaNome +
+               "\n==================================\n" + 
+               "|| Nome:\t\t" + this.GetNome() +
+               "\n|| Idade:\t\t" + this.GetIdade() +
+               "\n==================================";
     }
 }

@@ -34,9 +34,10 @@ public class Aluno extends Pessoa {
         this.SetCurso(curso);
     }
 
-    public String ImprimeAlunoInfo(){
-        return this.ImprimePessoaInfo() +
-               "\nMatricula: " + this.GetMatricula() +
-               "\nCurso: " + this.GetCurso();
+    public String GetAlunoData(String tabelaNome){
+        return this.GetPessoaData(tabelaNome) +
+               "\n|| Matricula:\t" + this.GetMatricula() +
+               "\n|| Curso:\t\t" + this.GetCurso() +
+               "\n==================================";
     }
 }
